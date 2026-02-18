@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Music/music/background_2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a#logo {
+    position: relative; 
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+img#getImage {
+    width: 300px;
+    height: 105px;
+    
+}
+
+.page_categorie {
+    text-align: center;
+    color: #BA55D3;
+    font-family: Tower Ruins;
+    font-size: 60px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.cover {
+    display: flex;
+    padding-bottom: 20px;
+    width: 250px;
+}
+
+#column {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 25%;
+    width: 100%;
+}
+
+#life {
+    display: flex;
+    z-index: 3;
+}
+
+#yume_no_you_na {
+    display: flex;
+    z-index: 3;
+}
+
+#koe {
+    display: flex;
+    z-index: 3;
+}
+
+.ending {
+    width: 40%;
+    position: relative;
+    left: 5%;
+    color: lightseagreen;
+    font-size: 20px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.ending_nb {
+    position: relative;
+    left: 4%;
+    font-size: 60px;
+    font-family: The Dalmation;
+    color: rgb(199, 51, 100);
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.ending_t {
+    padding-left: 5px;
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@font-face {
+    font-family: "The Dalmation";
+    src: url(Dalmation-Demo.otf);
+}
+
+@font-face {
+    font-family: "Tower Ruins";
+    src: url(towerruins.ttf);
+}

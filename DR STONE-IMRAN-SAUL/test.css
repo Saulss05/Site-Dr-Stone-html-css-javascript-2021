@@ -1,0 +1,30 @@
+.image{
+    width: 270px;
+    height: 270px;
+}
+
+#i1{
+    position: absolute;
+}
+
+#i2{
+    position: absolute;
+    left:280px
+}
+
+#i3{
+    position: absolute;
+    top: 280px;
+}
+
+#i4{
+    position: absolute;
+    left: 40%;
+    top: 40%;
+}
+
+#i5{
+    position: absolute;
+    right:10%;
+    bottom:3%;
+}

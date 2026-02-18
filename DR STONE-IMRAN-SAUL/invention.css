@@ -1,0 +1,67 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("Images/Capture\ d’écran\ 2022-01-24\ à\ 14.34.37.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a:link {
+    text-decoration: none;
+    margin: 0;
+}
+
+a#logo {
+    position: relative; 
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+img#getImage {
+    width: 300px;
+    height: 105px;
+    
+}
+
+.page_categorie p {
+    text-align: center;
+    color: #d6702c;
+    font-size: 50px;
+    font-family: Tower Ruins;
+}
+
+.icon img {
+    border-radius: 8%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.zoom {
+    transition: transform .3s;
+    margin: 50px;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
+
+div.categorie {
+    color: rgb(226, 187, 59);
+    font-size: 40px;
+    font-family: Tower Ruins;
+}
+
+@font-face {
+    font-family: "Tower Ruins";
+    src: url(towerruins.ttf);
+}

@@ -1,0 +1,50 @@
+body {
+    background-image: url("Images/background_2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page_categorie {
+    text-align: center;
+    color: purple;
+}
+
+
+
+.column {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 25%;
+    width: 250px;
+    background-color: tomato;
+}
+
+.opening {
+    position: relative;
+    left: 20%;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.description {
+    display: flex;
+    justify-content: right;
+    position: relative;
+    right: 300px;
+    bottom: 200px;
+}
+#ohayo {
+
+}
+
+#sagenshoku {
+   
+}
+
+#rakuen {
+    
+}

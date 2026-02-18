@@ -1,0 +1,66 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Music/music/background_2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a#logo {
+    position: relative; 
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+img#getImage {
+    width: 300px;
+    height: 105px;
+}
+
+a:link {
+    text-decoration: none;
+    margin: 0;
+}
+
+.icon img {
+    border-radius: 8%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.zoom {
+    transition: transform .3s;
+    margin: 50px;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
+
+div.categorie {
+    color: plum;
+    font-size: 40px;
+    font-family: Tower Ruins;
+}
+
+.page_categorie p {
+    text-align: center;
+    color: rgb(194, 29, 158);
+    font-size: 50px;
+    font-family: Tower Ruins;
+}
+
+@font-face {
+    font-family: "Tower Ruins";
+    src: url(towerruins.ttf);
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>DR STONE </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="dr_stone.js"></script>
+</head>
+
+<body>
+    <html>
+
+    <div id="pointer"></div>
+    <div id="cursor"></div>
+    <div id="hand"></div>
+
+
+    <a href="dr_stone.html" onmouseover="cursor_to_hand()" onmouseout="hand_to_cursor()" id="logo">
+        <div id="logo_center">
+            <img src="Images/Dr_Stone_logo.png" onmouseover="imagefun()" id="getImage">
+        </div>
+    </a>
+    <p id="title"> STONE WORLD</p>
+
+
+    <div class="row" align="center">
+
+        <div>
+            <a href="music.html" onmouseover="cursor_to_hand()" onmouseout="hand_to_cursor()" class="column icon zoom">
+
+                <img src="Images/ukyo_headphone.png " width="280 " height="280 ">
+            </a>
+            <div class="column categorie">
+
+                <a href="music.html" onmouseover="cursor_to_hand(); show() " onmouseout="hand_to_cursor(); hide()">
+                    <p>MUSIQUE</p>
+                </a>
+
+            </div>
+
+            <div class="aligner2">
+                <div id="musique" onmouseover="show()" onmouseout="hide()">
+
+                    <a href="ost.html" onmouseover="cursor_to_hand();showost()" onmouseout="hand_to_cursor();hideost()">
+                        <p>OST</p>
+                        <img class="arrow" src="Images/blue_arrow.png">
+                    </a>
+
+                    <div class="ligne"></div>
+
+                    <a href="opening.html" onmouseover="cursor_to_hand();showop()" onmouseout="hand_to_cursor();hideop()">
+                        <p>OPENING</p>
+                        <img class="arrow" src="Images/blue_arrow.png">
+                    </a>
+
+                    <div class="ligne"></div>
+
+                    <a href="ending.html" onmouseover="cursor_to_hand();showed()" onmouseout="hand_to_cursor();hideed()">
+                        <p>ENDING</p>
+                        <img class="arrow" src="Images/blue_arrow.png">
+                    </a>
+                </div>
+
+                <div id="aligner">
+
+                    <div id="ost" onmouseover="show();showost()" onmouseout="hide();hideost()">
+                        <a href="ost_1.html" onmouseover="cursor_to_hand()" onmouseout="hand_to_cursor()">
+                            <p>OST 1</p>
+                        </a>
+                        <a href="ost_2.html" onmouseover="cursor_to_hand()" onmouseout="hand_to_cursor()">
+                            <p>OST 2</p>
+                        </a>
+                        <a href="ost_3.html" onmouseover="cursor_to_hand()" onmouseout="hand_to_cursor()">
+                            <p>OST 3</p>
+                        </a>
+                    </div>
+                    <div class="ligne2"></div>
+                    <div id="op" onmouseover="show();showop()" onmouseout="hide();hideop()">
+                        <a href="ohayo.html" onmouseover="cursor_to_hand()" onmouseout="hand_to_cursor()">
+                            <p>OP 1</p>
+                        </a>
+                        <a href="sangenshoku.html" onmouseover="cursor_to_hand()" onmouseout="hand_to_cursor()">
+                            <p>OP 2</p>
+                        </a>
+                        <a href="rakuen.html" onmouseover="cursor_to_hand()" onmouseout="hand_to_cursor()">
+                            <p>OP 3</p>
+                        </a>
+                    </div>
+                    <div class="ligne2"></div>
+                    <div id="ed" onmouseover="show();showed()" onmouseout="hide();hideed()">
+                        <a href="life.html" onmouseover="cursor_to_hand()" onmouseout="hand_to_cursor()">
+                            <p>ED 1</p>
+                        </a>
+                        <a href="yume_no_you_na.html" onmouseover="cursor_to_hand()" onmouseout="hand_to_cursor()">
+                            <p>ED 2</p>
+                        </a>
+                        <a href="koe.html" onmouseover="cursor_to_hand()" onmouseout="hand_to_cursor()">
+                            <p>ED 3</p>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div>
+            <a href="characters.html" onmouseover="cursor_to_hand()" onmouseout="hand_to_cursor()" class="column icon zoom">
+
+                <img src="Images/characters.jpg " width="280 " height="280 ">
+            </a>
+
+            <div class="column categorie">
+                <a href="characters.html" onmouseover="cursor_to_hand()" onmouseout="hand_to_cursor()">
+                    <p>PERSONNAGES</p>
+                </a>
+            </div>
+        </div>
+
+
+        <div>
+            <a href="inventions.html" onmouseover="cursor_to_hand()" onmouseout="hand_to_cursor()" class="column icon zoom">
+
+                <img src="Images/senku_idea.jpg " width="280 " height="280 ">
+            </a>
+
+            <div class="column categorie">
+                <a href="inventions.html" onmouseover="cursor_to_hand();show1()" onmouseout="hand_to_cursor(); hide1()">
+                    <p>INVENTIONS</p>
+                </a>
+            </div>
+
+            <div id="inventions" onmouseover="show1()" onmouseout="hide1()">
+                <a href="roadmap.html" onmouseover="cursor_to_hand()" onmouseout="hand_to_cursor()">
+                    <p>ROADMAP</p>
+                </a>
+                <div class="ligne"></div>
+                <a href="senku_cola.html" onmouseover="cursor_to_hand()" onmouseout="hand_to_cursor()">
+                    <p>SENKU COLA</p>
+                </a>
+            </div>
+        </div>
+        <div id="navigation">
+            <p>INFO NAVIGATION:</p>
+            <p>Appuyez sur le logo pour revenir à l'Accueil. Sur le menu survolez les Titres pour afficher les Sous-Catégories. Sur chaque page appuyez sur le titre de catégorie (situé sous le logo) pour revenir à la catégorie précédente.</p>
+        </div>
+    </div>
+
+    </div>
+</body>

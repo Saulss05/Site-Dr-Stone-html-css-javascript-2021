@@ -1,0 +1,192 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("Images/Capture\ d’écran\ 2022-01-24\ à\ 14.34.37.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a:link {
+    text-decoration: none;
+    margin: 0;
+}
+
+a#logo {
+    position: relative; 
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+img#getImage {
+    width: 300px;
+    height: 105px;
+    
+}
+
+.page_categorie p {
+    position: absolute;
+    left: 40.5%;
+    color: #d6702c;
+    font-size: 50px;
+    font-family: Tower Ruins;
+}
+
+#eau_gazeuse{
+    width: 200px;
+    position: absolute;
+    left: 19%;
+    top: 30%;
+    visibility: hidden;
+}
+#coriandre{
+    width: 200px;
+    position: absolute;
+    left: 68%;
+    top: 30%;
+    visibility: hidden;
+}
+#citron_vert{
+    width: 200px;
+    position: absolute;
+    left: 18%;
+    top: 75%;
+    visibility: hidden;
+}
+#miel{
+    width: 200px;
+    position: absolute;
+    left: 67%;
+    top: 64%;
+    visibility: hidden;
+}
+
+#mecha_senku{
+    width: 250px;
+    position: absolute;
+    left:41.5%;
+    top: 55%;
+    visibility: hidden;
+}
+
+#senku_cola{
+    width: 250px;
+    position: absolute;
+    top: 30%;
+    visibility: hidden;
+}
+
+#senku_cola2{
+    width: 250px;
+    position: absolute;
+    top: 30%;
+    left:82%;
+    visibility: hidden;
+}
+
+
+div#dialogue {
+    position: absolute;
+    background-image: url('senku_cola/bubble.png');
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    left: 37.5%;
+    top: 30%;
+    font-size: 14px;
+    visibility: hidden;
+}
+
+#bouton{
+    position: absolute;
+    background-color: rgb(94, 43, 43);
+    color: burlywood;
+    border:none;
+    height: 50px;
+    top: 20%;
+    left: 5%;
+    font-family: The Dalmation;
+    font-size: 40px;
+    font-style: normal;
+}
+
+#bouton2{
+    position: absolute;
+    background-color: rgb(94, 43, 43);
+    color: burlywood;
+    border:none;
+    height: 50px;
+    top: 20%;
+    right: 5%;
+    font-family: The Dalmation;
+    font-size: 40px;
+    font-style: normal;
+    
+}
+
+#video{
+    position: absolute;
+    top: 33%;
+    left: 29%;
+    width: 600px ;
+}
+
+#texte{
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 80%;
+    left: 23%;
+    width: 800px;
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#texte2{
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 26%;
+    left: 4%;
+    width: 300px;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.senku_cola_pic{
+    width: 350px;
+}
+
+#senku_cola_pic1{
+    border-radius: 10%;
+    position: absolute;
+    left:73% ;
+    top:20% ;
+}
+
+#senku_cola_pic2{
+    border-radius: 10%;
+    position: absolute;
+    left:73% ;
+    top:53% ;
+}
+
+#senku_cola_pic3{
+    border-radius: 10%;
+    position: absolute;
+    left:2% ;
+    top:52% ;
+}
+
+
+@font-face {
+    font-family: "Tower Ruins";
+    src: url(towerruins.ttf);
+}
+
+@font-face {
+    font-family: "The Dalmation";
+    src: url(Dalmation-Demo.otf);
+}
